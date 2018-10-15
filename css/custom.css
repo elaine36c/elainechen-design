@@ -29,15 +29,22 @@ img.nav-bar-img{
 
 .navbar{
 	background-color: #fff;
-
+    box-shadow: 0px 5px 30px rgb(48, 49, 51, 0.4);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+	color: #674f84;
 }
 
 a.navbar-brand{
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 
+/*	font-family:'Montserrat', Sans-Serif;*/
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+	color: #674f84;
 }
 
-
+.navbar-light .navbar-brand {
+    color: #674f84;
+}
 
 /*Image Rules*/
 img{
@@ -50,6 +57,7 @@ img{
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Montserrat', Sans-Serif;
+    font-weight: 200;
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
@@ -129,12 +137,21 @@ span.img-caption{
 }
 
 body {
-    background: #232327;  
+    background: linear-gradient(#232327, #181819);  
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 100px;
+/*    padding: 10px;*/
 }
 
 #main-heading {
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(36, 0, 146, 0.2), rgba(16, 0, 66, 0.9)), 
                         url("../img/process-journal/journal.jpg");
     
     background-position: left;
@@ -143,37 +160,37 @@ body {
 }
 
 #main-heading h1 {
-    margin-top: 10px;
+/*    margin-top: 10px;*/
     color: white;
-/*    font-family: 'Lato', Sans-Serif;*/
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 100;
     font-size: 60px;
-}
-
-.wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    padding: 10px;
+    margin: 20px;
 }
 
     /* >>> Floating Nav*/
 .floating-nav{
 	position: fixed;
-    margin: 30px;
+    margin: 80px;
     margin-top: 20px;
 	border-left: 1px solid mediumpurple;
 }
 
 a.float-nav-link{
     font-family: 'Lato', Sans-Serif;
-    color: #240092;
+/*    color: #240092;*/
+    color: #969ca5;
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 600;
     text-align: left;
+}
+
+a.float-nav-link:hover {
+    color: rebeccapurple;
+}
+
+#journal-content {
+    padding-left: 50px;
 }
 
 /*\\\\\\\  END PROCESS JOURNAL PAGE /////////*/
@@ -184,8 +201,9 @@ a.float-nav-link{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
+	background-color: #372a47;
 	border-top: 1px solid #727272;
+    color: white;
 }
 
 
