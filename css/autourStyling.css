@@ -26,8 +26,30 @@ body {
 
 .second-section {
     background-color: white;
-    color: black;
+/*    color: black;*/
+    color: rgb(84, 173, 160);
     padding: 100px;
+}
+
+.feature-section {
+    background-color: aliceblue;
+    color: rgb(84, 173, 160);
+    padding: 100px;
+}
+
+#features {
+    background-color: rgb(219, 255, 249);
+    background-image: url("../img/autour/path1.png");
+}
+
+#features2 {
+    background-color: rgb(219, 255, 249);
+    background-image: url("../img/autour/path2.png");
+}
+
+#features3 {
+    background-color: rgb(219, 255, 249);
+    background-image: url("../img/autour/path3.png");
 }
 
 .full-page-bg {
@@ -104,7 +126,7 @@ li {
 .welcome-button{
 	background-color: rgba(255, 255, 255, 0.3);
 	border-radius: 10px;
-	border: 2px solid #FFF;
+	border: 1px solid #FFF;
 	font-family:'Montserrat', Sans-Serif;
 	font-size: 30px;
 	color: #FFF;
@@ -112,6 +134,7 @@ li {
 
     margin: 10px;
     margin-left: 0;
+    float: left;
 }
 
 .welcome-button:hover{
@@ -130,8 +153,18 @@ nav {
     font-weight: 100;
 }
 
+#nav-logo {
+    margin-right: 20px;
+}
+
 .navbar-light .navbar-nav .nav-link {
 /*    color: floralwhite;*/
     color: rgb(84, 173, 160);
     padding-left: 20px;
+}
+
+#userflow-section {
+    background-color: rgb(219, 255, 249);
+    background-image: linear-gradient(rgba(50, 119, 140, 0.1), rgba(165, 160, 59, 0.2));
+    color: rgb(84, 173, 160); 
 }
