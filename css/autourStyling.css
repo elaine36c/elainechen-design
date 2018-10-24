@@ -102,7 +102,7 @@ li {
 }
 
 .welcome-button{
-	background-color: transparent;
+	background-color: rgba(255, 255, 255, 0.3);
 	border-radius: 10px;
 	border: 2px solid #FFF;
 	font-family:'Montserrat', Sans-Serif;
@@ -117,7 +117,7 @@ li {
 .welcome-button:hover{
 	background-color: #FFF;
 	border-color: #FFF;
-    color: black;
+    color: mediumaquamarine;
 }
 
 
