@@ -145,7 +145,7 @@ body {
     margin: 0 auto;
     background-color: white;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 /*    padding: 10px;*/
 }
 
@@ -171,9 +171,13 @@ body {
     /* >>> Floating Nav*/
 .floating-nav{
 	position: fixed;
-    margin: 80px;
+    margin: 40px;
     margin-top: 20px;
 	border-left: 1px solid mediumpurple;
+}
+
+.top-content-section {
+    font-size: 16px;
 }
 
 a.float-nav-link{

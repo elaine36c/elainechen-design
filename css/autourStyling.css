@@ -180,17 +180,17 @@ nav {
     color: white;
 }
 
-#testing-info2 ul {
+.testing-info2 ul {
     list-style: decimal;
     list-style-type: decimal;
 /*    padding-right: 10px;*/
 }
 
-#testing-info2 li {
+.testing-info2 li {
     margin: 10px;
 }
 
-#testing-info2 li span {
+.testing-info2 li span {
     position: relative;
     left: 20px;
 }
