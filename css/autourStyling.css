@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li, span, a {
 	font-family: 'Lato', Sans-Serif;
-	text-align: justify;
+/*	text-align: justify;*/
 	font-weight: 300;
 }
 
@@ -165,8 +165,12 @@ nav {
 
 #userflow-section {
     background-color: rgb(219, 255, 249);
-    background-image: linear-gradient(rgba(50, 119, 140, 0.1), rgba(165, 160, 59, 0.2));
+    background-image: linear-gradient(rgba(50, 119, 140, 0.1), rgba(165, 160, 59, 0.1));
     color: rgb(84, 173, 160); 
+}
+
+#userflow-info {
+    padding-left: 40px;
 }
 
 #video-section {
