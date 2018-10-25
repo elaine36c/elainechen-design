@@ -60,20 +60,25 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
 	margin-bottom: 20px;
 }
-	h1.welcome-special{
+
+h1.welcome-special {
 		font-size: 90px;
 	}
 
-	h2.welcome-special-sub{
+h2.welcome-special-sub {
 		font-family: 'Lato', Sans-Serif;
 		font-size: 30px;
 	}
 
-	h3{
+h3 {
 		text-transform: uppercase;
 		color: mediumpurple;
 		letter-spacing: -0.5px;
 	}
+
+b {
+    color: mediumpurple;
+}
 
 p, li, span, a {
 	font-family: 'Lato', Sans-Serif;
@@ -137,7 +142,9 @@ span.img-caption{
 }
 
 body {
-    background: linear-gradient(#232327, #181819);  
+    background: linear-gradient(#232327, #181819);
+/*    background: white;*/
+    background: #232327;
 }
 
 .wrapper {
@@ -147,6 +154,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 /*    padding: 10px;*/
+    box-shadow: 0px 5px 30px rgb(48, 49, 51, 0.4);
 }
 
 #main-heading {
@@ -169,10 +177,10 @@ body {
 }
 
     /* >>> Floating Nav*/
-.floating-nav{
+.floating-nav {
 	position: fixed;
-    margin: 40px;
-    margin-top: 20px;
+    margin: 60px;
+    margin-top: 6px;
 	border-left: 1px solid mediumpurple;
 }
 
@@ -193,8 +201,13 @@ a.float-nav-link:hover {
     color: rebeccapurple;
 }
 
+.number-bullet {
+    color: mediumpurple;
+    margin-right: 4px;
+}
+
 #journal-content {
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 /*\\\\\\\  END PROCESS JOURNAL PAGE /////////*/
