@@ -256,3 +256,8 @@ a.float-nav-link:hover {
 	border-top: 1px solid #727272;
     color: white;
 }
+
+#footer-text {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 20px;
+}
