@@ -210,6 +210,40 @@ a.float-nav-link:hover {
     padding-left: 80px;
 }
 
+
+/*////CAROUSEL STYLING\\\\\*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    /*  outline: black;*/
+/*
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+*/
+
+    background-size: 100%, 100%;
+    border: none;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+    padding-left: 60px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+
 /*\\\\\\\  END PROCESS JOURNAL PAGE /////////*/
 
 /*Footer*/
@@ -222,6 +256,3 @@ a.float-nav-link:hover {
 	border-top: 1px solid #727272;
     color: white;
 }
-
-
-
