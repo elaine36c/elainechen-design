@@ -140,9 +140,10 @@ span.img-caption{
 #portfolio-heading {
     background-color: black;
     background-image: linear-gradient(rgba(36, 0, 146, 0.1), rgba(16, 0, 66, 0.2)), 
-                        url("../img/autour/videobg.jpeg");
+                        url("../img/autour/skybus.jpeg");
     
     background-position: center;
+    background-size: cover;
     text-align: center;
     height: 200px;
 }
@@ -163,7 +164,21 @@ span.img-caption{
 #portfolio-content {
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+#portfolio-content p {
+    font-family: 'Montserrat', Sans-Serif;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+#portfolio-content li {
+    font-family: 'Montserrat', Sans-Serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(155, 155, 155);
+    list-style: inside;
 }
 
 /*\\\\\\\  PROCESS JOURNAL PAGE /////////*/
@@ -285,6 +300,11 @@ a.float-nav-link:hover {
 	background-color: #372a47;
 	border-top: 1px solid #727272;
     color: white;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 20px;
 }
 
 #footer-text {
