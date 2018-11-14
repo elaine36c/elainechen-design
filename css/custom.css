@@ -136,6 +136,36 @@ span.img-caption{
 }
 
 
+/*\\\\\\\  PORTFOLIO PAGE /////////*/
+#portfolio-heading {
+    background-color: black;
+    background-image: linear-gradient(rgba(36, 0, 146, 0.1), rgba(16, 0, 66, 0.2)), 
+                        url("../img/autour/videobg.jpeg");
+    
+    background-position: center;
+    text-align: center;
+    height: 200px;
+}
+
+#portfolio-heading h1 {
+/*    margin-top: 10px;*/
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.container {
+    padding: 0;
+}
+
+#portfolio-content {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 18px;
+}
+
 /*\\\\\\\  PROCESS JOURNAL PAGE /////////*/
 .introduction {
 /*    background: black;*/
