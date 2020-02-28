@@ -40,16 +40,19 @@ body {
 #features {
     background-color: rgb(219, 255, 249);
     background-image: url("../img/autour/path1.png");
+    background-size: cover;
 }
 
 #features2 {
     background-color: rgb(219, 255, 249);
     background-image: url("../img/autour/path2.png");
+    background-size: cover;
 }
 
 #features3 {
     background-color: rgb(219, 255, 249);
     background-image: url("../img/autour/path3.png");
+    background-size: cover;
 }
 
 .full-page-bg {
@@ -59,7 +62,7 @@ body {
     background-image: linear-gradient(rgba(50, 119, 140, 0.6), rgba(165, 160, 59, 0.6)), 
                         url("../img/autour/skybus.jpeg");
 
-    background-size: 1500px;
+    background-size: contain;
     background-position: top;
 }
 
@@ -178,6 +181,7 @@ nav {
     background-image: linear-gradient(rgba(50, 119, 140, 0.6), rgba(165, 160, 59, 0.6)), 
                         url("../img/autour/videobg.jpeg");
     color: white;
+    background-size: cover;
 }
 
 .testing-info2 ul {
